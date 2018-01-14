@@ -4,8 +4,10 @@ var x = btn.length;
 
 console.log(x);
 
-for ( var i = 0 ; i <= x ; i++ ) {
+for ( var i= 0 ; i <= x ; i++ ) {
   
-   console.log(btn.innerText());
-
+  var text = btn[i].innerText;
+  console.log(text);
+  
 }
+
